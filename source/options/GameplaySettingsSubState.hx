@@ -66,11 +66,11 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 		
-		var option:Option = new Option('Instant Respawn',
-			"Instantly respawn when you die.",
-			'instaRestart',
+		var option:Option = new Option('Show Ratings',
+			"If unchecked, the game will not show a rating sprite when hitting a note.",
+			'ratingPopups',
 			'bool',
-			false);
+			true);
 		addOption(option);
 
 		var option:Option = new Option('Ghost Tapping',
